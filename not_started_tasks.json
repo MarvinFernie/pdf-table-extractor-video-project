@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Record Screen Captures of UI Interactions",
+    "description": "Record high-quality screen captures of all UI interactions with the PDF Table Extractor application, including uploading PDFs, extraction process, and downloading in different formats.",
+    "dependencies": [],
+    "notes": "Should use specialized screen recording software for optimal quality and frame rate.",
+    "suggested_tests": [
+      "Verify all captures show the complete UI without cut-off elements",
+      "Ensure screen recordings capture all tooltips and hover states",
+      "Check that loading/processing animations are clearly visible"
+    ]
+  },
+  {
+    "title": "Record Professional Voiceover Narration",
+    "description": "Hire and direct a professional voice actor to record the narration script with appropriate pacing, emphasis, and tone.",
+    "dependencies": [],
+    "notes": "Use a soundproofed environment with high-quality microphone setup.",
+    "suggested_tests": [
+      "Test audio levels for consistency throughout the recording",
+      "Verify pronunciation of technical terms is correct",
+      "Ensure timing aligns with visual demonstration elements"
+    ]
+  },
+  {
+    "title": "Create Motion Graphics and Animations",
+    "description": "Design and implement motion graphics, text animations, and visual effects to enhance the video presentation.",
+    "dependencies": ["Record Screen Captures of UI Interactions"],
+    "notes": "Should include animated transitions, highlight effects for UI elements, and text overlays.",
+    "suggested_tests": [
+      "Verify animations enhance rather than distract from the core content",
+      "Check that text remains on screen long enough to be read",
+      "Ensure transitions between scenes are smooth and professional"
+    ]
+  },
+  {
+    "title": "Produce Final Video Edit",
+    "description": "Combine all elements (screen recordings, voiceover, motion graphics, music) into a cohesive 1-2 minute video optimized for Twitter sharing.",
+    "dependencies": [
+      "Record Screen Captures of UI Interactions",
+      "Record Professional Voiceover Narration",
+      "Create Motion Graphics and Animations"
+    ],
+    "notes": "Final output should be in 1080x1080 square format with subtitles embedded.",
+    "suggested_tests": [
+      "Verify audio and video synchronization throughout",
+      "Check video on multiple devices and screen sizes",
+      "Ensure total length is between 1-2 minutes (ideal: 1:20-1:30)"
+    ]
+  },
+  {
+    "title": "Create Platform-Specific Variations",
+    "description": "Adapt the main video for optimal presentation on other platforms (LinkedIn, Instagram, TikTok) with appropriate aspect ratios and lengths.",
+    "dependencies": ["Produce Final Video Edit"],
+    "notes": "May require re-editing to different lengths and formats for platform optimization.",
+    "suggested_tests": [
+      "Test all versions on target platforms to verify proper display",
+      "Ensure platform-specific versions maintain core messaging",
+      "Verify each version meets platform-specific technical requirements"
+    ]
+  }
+]

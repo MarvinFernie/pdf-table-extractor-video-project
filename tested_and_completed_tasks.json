@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Create Video Production Package",
+    "description": "Develop a comprehensive set of production assets and documentation to guide the creation of a high-quality video demo for the PDF Table Extractor application.",
+    "relevant_paths": [
+      "/home/computeruse/Desktop/output/PDF_Table_Extractor_Complete_Package_2025-05-08.tar.gz",
+      "/home/computeruse/Desktop/output/FINAL_DELIVERY.md",
+      "/home/computeruse/Desktop/output/QUICK_START.md",
+      "/home/computeruse/Desktop/output/FINAL_SUMMARY.md"
+    ],
+    "tests": [
+      {
+        "title": "Package Integrity Test",
+        "description": "Verify that the production package archive contains all required assets and documentation.",
+        "path": "tar -tf /home/computeruse/Desktop/output/PDF_Table_Extractor_Complete_Package_2025-05-08.tar.gz | wc -l"
+      },
+      {
+        "title": "Documentation Completeness Test",
+        "description": "Verify that all required documentation components are present and properly formatted.",
+        "path": "ls -la /home/computeruse/Desktop/output/"
+      },
+      {
+        "title": "Asset Organization Test",
+        "description": "Verify that assets are properly organized in a logical directory structure.",
+        "path": "ls -la /home/computeruse/Desktop/shared_with_user/assets/"
+      }
+    ],
+    "notes": "The production package includes comprehensive script, storyboard, visual assets, production guidelines, and marketing strategy documents. All assets have been organized in a logical directory structure and archived for easy distribution.",
+    "explanation_of_success": "The production package task has been successfully completed, providing all necessary resources for a video production team to create a high-quality demonstration video. The package includes screenshots capturing the complete application workflow, a reference screen recording, detailed production guidelines, and marketing optimization strategies. All materials have been organized in a structured directory system and comprehensive documentation has been provided to guide the production process. The integrity of the final archive has been verified, confirming that all 44 files are properly included."
+  }
+]
