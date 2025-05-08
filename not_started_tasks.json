@@ -3,7 +3,7 @@
     "title": "Record Screen Captures of UI Interactions",
     "description": "Record high-quality screen captures of all UI interactions with the PDF Table Extractor application, including uploading PDFs, extraction process, and downloading in different formats.",
     "dependencies": [],
-    "notes": "Should use specialized screen recording software for optimal quality and frame rate.",
+    "notes": "Should use specialized screen recording software for optimal quality and frame rate. Reference the completed production package for UI interaction guidelines and detailed step-by-step instructions.",
     "suggested_tests": [
       "Verify all captures show the complete UI without cut-off elements",
       "Ensure screen recordings capture all tooltips and hover states",

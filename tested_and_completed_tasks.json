@@ -3,10 +3,10 @@
     "title": "Create Video Production Package",
     "description": "Develop a comprehensive set of production assets and documentation to guide the creation of a high-quality video demo for the PDF Table Extractor application.",
     "relevant_paths": [
+      "https://github.com/MarvinFernie/pdf-table-extractor-video-project/releases/tag/v1.0.0",
       "/home/computeruse/Desktop/output/PDF_Table_Extractor_Complete_Package_2025-05-08.tar.gz",
       "/home/computeruse/Desktop/output/FINAL_DELIVERY.md",
-      "/home/computeruse/Desktop/output/QUICK_START.md",
-      "/home/computeruse/Desktop/output/FINAL_SUMMARY.md"
+      "/home/computeruse/Desktop/output/QUICK_START.md"
     ],
     "tests": [
       {
