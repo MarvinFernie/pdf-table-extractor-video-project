@@ -6,6 +6,14 @@ This project aims to create a high-quality 1-2 minute video demonstration of the
 
 **Production Status**: A comprehensive video production package has been completed and is available for the production team. This package includes script, storyboard, UI interaction guidelines, visual design specifications, and marketing strategy documents. See `tested_and_completed_tasks.json` for details on accessing the package.
 
+**Project Documentation Structure**:
+- `readme.md`: This file - contains the project vision and requirements
+- `not_started_tasks.json`: Lists upcoming tasks that need to be completed
+- `in_progress_tasks.json`: Tracks tasks currently being worked on
+- `tested_and_completed_tasks.json`: Documents completed and tested tasks
+
+**Next Steps**: Team members should first review the production package referenced in `tested_and_completed_tasks.json`, then select a task from `not_started_tasks.json` to begin work on. When starting a task, move it from not_started_tasks.json to in_progress_tasks.json.
+
 ## Requirements
 
 ### Core Video Requirements
